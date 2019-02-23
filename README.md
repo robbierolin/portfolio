@@ -1,4 +1,4 @@
-See [robbierolin.github.op/portfolio](https://robbierolin.github.op/portfolio)
+See [robbierolin.github.io/portfolio](https://robbierolin.github.io/portfolio)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
