@@ -41,24 +41,10 @@ function createPanes(projects) {
 				</Grid>	
 			)
 		}
-		let pane1 = getPane(projects, keys, i)
-		let pane2 = getPane(projects, keys, i+1)
-		let pane3 = getPane(projects, keys, i+2)
 		
 		row = 
 			<React.Fragment>
 				{panes}
-				{/*
-				<Grid item sm>
-					{pane1}
-				</Grid>
-				<Grid item sm>
-					{pane2}
-				</Grid>
-				<Grid item sm>
-					{pane3}
-				</Grid>
-			*/}
 			</React.Fragment>
 			
 		gridItems.push(
