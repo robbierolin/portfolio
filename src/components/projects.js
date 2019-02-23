@@ -30,7 +30,7 @@ const rowLength = 3
 function createPanes(projects) {
 	let gridItems = []
 	let keys = Object.keys(projects).sort()
-	console.log(keys)
+
 	for (var i = 0; i < keys.length; i += rowLength) {
 		let row
 		let panes = []
@@ -44,12 +44,12 @@ function createPanes(projects) {
 		
 		row = 
 			<React.Fragment>
-				{panes}
+				{ panes }
 			</React.Fragment>
 			
 		gridItems.push(
-			<Grid container item xs={2} spacing={24}>
-				{ row }
+			<Grid container item xs={12} spacing={24}>
+				{row}
 			</Grid>
 		)
 	}
