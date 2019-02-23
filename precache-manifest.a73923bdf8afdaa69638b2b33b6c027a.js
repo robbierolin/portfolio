@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/video.1b04a590.mp4"
   },
   {
-    "revision": "e50a1ccae62b445bf5018e75cba0c5b9",
+    "revision": "006dd22a6c82858c9eb4726569bbefdb",
     "url": "/portfolio/index.html"
   }
 ];
