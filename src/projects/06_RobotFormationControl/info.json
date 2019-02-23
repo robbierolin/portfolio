@@ -1,0 +1,5 @@
+{
+	"name": "Robot Formation Control",
+	"description": "Simulation environment and algorithms for robot fleets to reach a goal while avoiding obstacles and maintaining a formation",
+	"link": "https://github.com/robbierolin/robot-formation-control"
+}

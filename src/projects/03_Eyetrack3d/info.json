@@ -1,0 +1,5 @@
+{
+	"name": "Eyetrack3D",
+	"description": "A CNN to predict 3D gaze location from eye images",
+	"link": "https://github.com/robbierolin/eyetrack3d"
+}
