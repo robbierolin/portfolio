@@ -37,7 +37,7 @@ function createPanes(projects) {
 		for (var j = 0; j < rowLength; j += 1) {
 			panes.push(
 				<Grid item sm>
-					{getPane(projects, keys, i+j)}
+					{ getPane(projects, keys, i+j) }
 				</Grid>	
 			)
 		}
@@ -48,8 +48,8 @@ function createPanes(projects) {
 			</React.Fragment>
 			
 		gridItems.push(
-			<Grid container item xs={12} spacing={24}>
-				{row}
+			<Grid container item xs={2} spacing={24}>
+				{ row }
 			</Grid>
 		)
 	}
@@ -60,14 +60,14 @@ class Projects extends Component {
 	render() {
 		return (
 		  <Grid container 
-              direction='row' 
-              alignItems='center' 
-              justify='space-evenly'
-              spacing={40}
-              style={{paddingTop: 50}}>
+		  	direction='row' 
+		  	alignItems='center' 
+		  	justify='space-evenly'
+		  	spacing={40}
+		  	style={{ paddingTop: 50 }}>
               
-              {createPanes(projects)}
-          </Grid>
+        { createPanes(projects) }
+      </Grid>
 		)
 	}
 }
