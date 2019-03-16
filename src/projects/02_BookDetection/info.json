@@ -1,0 +1,5 @@
+{
+	"name": "Book Detection",
+	"description": "Mask RCNN + OCR + Flask REST API + HTML frontend",
+	"link": ""
+}
